@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "uno-game-server"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+uno-game-shared = { version = "0.1.0", path = "../shared" }
+jsonrpc-core = "18.0.0"
+jsonrpc-derive = "18.0.0"
+jsonrpc-http-server = "18.0.0"
